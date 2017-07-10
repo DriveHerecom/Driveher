@@ -1,0 +1,916 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:2:1-392:12
+	package
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.CAMERA
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:9:5-65
+MERGED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:27:5-65
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:9:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:11:5-81
+MERGED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:12:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:13:22-68
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:15:22-65
+uses-permission#android.permission.INTERNET
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:16:5-67
+MERGED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:28:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:17:5-75
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:17:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:18:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:20:5-66
+MERGED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:29:5-66
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:20:22-63
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:25:5-98
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:25:22-95
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:30:5-68
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:30:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:32:5-82
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:32:22-79
+uses-permission#com.yukti.drivehere.permission.C2D_MESSAGE
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:33:5-82
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:33:22-79
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:34:22-78
+permission#com.yukti.driveherenew.permission.C2D_MESSAGE
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:36:5-38:47
+	android:protectionLevel
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:38:9-44
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:37:9-69
+permission#com.yukti.driveherenew.permission.MAPS_RECEIVE
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:39:5-41:47
+	android:protectionLevel
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:41:9-44
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:40:9-70
+uses-feature#0x00020000
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:43:5-45:35
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:44:9-41
+	android:required
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:45:9-32
+application
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:53:5-390:19
+MERGED from [DriveHere.driveHere.libraries:volley:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\volley\unspecified\AndroidManifest.xml:11:5-20
+MERGED from [DriveHere:library:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere\library\unspecified\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:67:5-199:19
+MERGED from [com.google.android.gms:play-services-location:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.pnikosis:materialish-progress:1.7] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.7\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.github.dexafree:materiallist:3.1.3] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.github.dexafree\materiallist\3.1.3\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:59:9-45
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:57:9-41
+	android:supportsRtl
+		ADDED from [DriveHere:library:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere\library\unspecified\AndroidManifest.xml:14:9-35
+	android:allowBackup
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:55:9-35
+	android:icon
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:56:9-42
+	android:largeHeap
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:58:9-33
+	android:theme
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:60:9-40
+	android:logo
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:70:9-47
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:54:9-52
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:62:9-64:54
+	android:value
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:64:13-51
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:63:13-62
+meta-data#com.google.android.gms.version
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:65:9-67:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:67:13-66
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:66:13-58
+activity#com.yukti.driveherenew.LoginActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:69:9-77:20
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:71:13-49
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:70:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:72:13-76:29
+action#android.intent.action.MAIN
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:73:17-69
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:73:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:75:17-77
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:75:27-74
+activity#com.yukti.driveherenew.SignUpActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:79:9-86:20
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:82:13-49
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:81:13-64
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:80:13-43
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:83:13-85:72
+	android:value
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:85:17-69
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:84:17-63
+activity#com.yukti.driveherenew.TermsAndConditions
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:88:9-95:20
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:91:13-49
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:90:13-72
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:89:13-47
+activity#com.yukti.driveherenew.MainActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:97:9-100:52
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:100:13-49
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:99:13-45
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:98:13-41
+activity#com.yukti.driveherenew.VinScannerActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:102:9-106:57
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:105:13-50
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:104:13-59
+	android:theme
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:106:13-54
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:103:13-47
+activity#com.yukti.driveherenew.AddCarScannerActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:108:9-112:57
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:111:13-50
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:110:13-59
+	android:theme
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:112:13-54
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:109:13-50
+activity#com.yukti.driveherenew.BarCodeScannerActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:114:9-118:57
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:117:13-50
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:116:13-59
+	android:theme
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:118:13-54
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:115:13-51
+activity#com.yukti.driveherenew.InputScanActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:120:9-127:20
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:122:13-62
+	android:windowSoftInputMode
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:123:13-54
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:121:13-46
+activity#com.yukti.driveherenew.AddNewCarActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:129:9-134:57
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:133:13-49
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:132:13-29
+	android:windowSoftInputMode
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:134:13-54
+	android:configChanges
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:131:13-57
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:130:13-46
+activity#com.yukti.driveherenew.AddNewCarDetailsActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:136:9-141:57
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:140:13-49
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:139:13-29
+	android:windowSoftInputMode
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:141:13-54
+	android:configChanges
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:138:13-57
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:137:13-53
+activity#com.yukti.driveherenew.EditCarActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:142:9-146:57
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:145:13-49
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:144:13-43
+	android:windowSoftInputMode
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:146:13-54
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:143:13-44
+activity#com.yukti.driveherenew.ForgotPasswordActivityTwo
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:148:9-152:20
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:148:19-60
+activity#com.yukti.driveherenew.ProfileActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:154:9-158:20
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:154:19-50
+activity#com.yukti.driveherenew.search.SearchActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:160:9-168:20
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:163:13-49
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:162:13-58
+	android:windowSoftInputMode
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:164:13-54
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:161:13-50
+activity#com.yukti.driveherenew.search.SearchResultActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:170:9-173:20
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:172:13-65
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:171:13-56
+activity#com.yukti.driveherenew.search.CarDetailsActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:175:9-179:20
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:177:13-29
+	android:theme
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:178:13-52
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:176:13-54
+activity#com.yukti.driveherenew.search.MapActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:181:9-184:20
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:183:13-59
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:182:13-47
+activity#com.yukti.driveherenew.search.GalleryActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:186:9-190:20
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:188:13-59
+	android:theme
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:189:13-50
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:187:13-51
+activity#com.yukti.driveherenew.StageActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:192:9-194:32
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:194:13-29
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:193:13-42
+activity#com.yukti.driveherenew.Stagewithcaractivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:196:9-198:32
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:198:13-29
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:197:13-49
+activity#com.yukti.facerecognization.FacialRecognitionActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:200:9-90
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:200:19-87
+activity#com.yukti.facerecognization.AddPhoto
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:202:9-205:52
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:205:13-49
+	android:configChanges
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:204:13-63
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:203:13-64
+activity#com.yukti.facerecognization.ImageConfirmation
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:207:9-210:52
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:210:13-49
+	android:configChanges
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:209:13-63
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:208:13-73
+activity#com.yukti.facerecognization.ChooseUser
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:212:9-75
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:212:19-72
+activity#com.yukti.facerecognization.LiveRecognition
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:214:9-217:52
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:217:13-49
+	android:configChanges
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:216:13-63
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:215:13-71
+activity#com.yukti.driveherenew.search.AddCarHistory
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:219:9-221:70
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:221:13-67
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:220:13-49
+activity#com.yukti.driveherenew.CarAuctionActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:223:9-228:57
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:227:13-49
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:226:13-63
+	android:windowSoftInputMode
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:228:13-54
+	android:configChanges
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:225:13-57
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:224:13-47
+activity#com.yukti.driveherenew.ReportActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:230:9-232:61
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:232:13-58
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:231:13-43
+activity#com.yukti.driveherenew.MissingCarDetailActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:234:9-236:73
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:236:13-70
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:235:13-53
+activity#com.yukti.driveherenew.search.HistoryOfEditCarActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:238:9-240:74
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:240:13-71
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:239:13-60
+activity#com.yukti.driveherenew.DataoneActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:242:9-244:62
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:244:13-59
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:243:13-44
+activity#com.yukti.driveherenew.MissingCarFullDetailActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:246:9-248:84
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:248:13-81
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:247:13-57
+activity#com.yukti.facerecognization.localdatabase.FacialRecognitionActivityLocal
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:250:9-252:84
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:252:13-81
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:251:13-100
+activity#com.yukti.facerecognization.localdatabase.AddPhotoLocal
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:254:9-257:52
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:257:13-49
+	android:configChanges
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:256:13-63
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:255:13-83
+activity#com.yukti.facerecognization.localdatabase.ImageConfirmationLocal
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:259:9-263:52
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:263:13-49
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:262:13-81
+	android:configChanges
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:261:13-63
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:260:13-92
+activity#com.yukti.facerecognization.localdatabase.LiveRecognitionLocal
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:265:9-269:52
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:269:13-49
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:268:13-81
+	android:configChanges
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:267:13-63
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:266:13-90
+activity#com.yukti.driveherenew.DailogActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:271:9-274:70
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:273:13-58
+	android:theme
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:274:13-67
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:272:13-43
+activity#com.yukti.driveherenew.LeaseActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:276:9-278:61
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:278:13-58
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:277:13-42
+activity#com.yukti.driveherenew.Officeractivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:280:9-283:52
+	android:screenOrientation
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:283:13-49
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:282:13-38
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:281:13-44
+service#com.yukti.driveherenew.AlarmReciever
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:285:9-50
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:285:18-47
+activity#com.yukti.driveherenew.MissCarSearchActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:287:9-289:70
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:289:13-67
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:288:13-50
+service#com.yukti.driveherenew.StoreDataOneDataService
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:291:9-60
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:291:18-57
+activity#com.yukti.driveherenew.ShowPhotoActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:293:9-295:65
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:295:13-62
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:294:13-46
+activity#com.yukti.driveherenew.ShowPhotoActivityEdit
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:297:9-299:65
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:299:13-62
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:298:13-50
+receiver#com.google.android.gcm.GCMBroadcastReceiver
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:301:9-311:20
+	android:permission
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:303:13-73
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:302:13-71
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.yukti.drivehere
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:304:13-310:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:306:17-81
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:306:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:308:17-86
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:308:25-83
+category#com.yukti.drivehere
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:309:17-64
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:309:27-61
+service#com.yukti.driveherenew.GCMIntentService
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:313:9-53
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:313:18-50
+activity#com.yukti.driveherenew.fragment.FRAGAllInfo
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:315:9-317:67
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:317:13-64
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:316:13-49
+activity#com.yukti.driveherenew.search.GoldstarMap
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:319:9-321:67
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:321:13-64
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:320:13-47
+activity#com.yukti.driveherenew.fragment.FRAGVacancy
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:323:9-58
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:323:19-55
+activity#com.yukti.driveherenew.search.TitleHistoryActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:325:9-327:45
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:327:13-42
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:326:13-56
+activity#com.yukti.driveherenew.search.TitleActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:329:9-331:41
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:331:13-38
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:330:13-49
+activity#com.yukti.driveherenew.search.DonedateLotcodeActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:333:9-335:48
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:335:13-45
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:334:13-59
+activity#com.yukti.driveherenew.AuctionActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:337:9-339:45
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:339:13-42
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:338:13-44
+activity#com.yukti.driveherenew.AuctionLotCodeDetailsActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:341:9-343:48
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:343:13-45
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:342:13-58
+activity#com.yukti.driveherenew.AuctionLotAvailableDetailsActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:345:9-347:51
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:347:13-48
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:346:13-63
+activity#com.yukti.driveherenew.AuctionCarDetailsActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:349:9-351:15
+	android:theme
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:350:13-56
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:349:19-60
+activity#com.yukti.driveherenew.InquiryActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:353:9-53
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:353:19-50
+activity#com.yukti.driveherenew.search.ZoomImageActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:355:9-358:59
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:357:13-34
+	android:theme
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:358:13-56
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:356:13-53
+activity#com.yukti.driveherenew.search.WebPicsHistoryActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:360:9-67
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:360:19-64
+activity#com.yukti.driveherenew.search.WebPicsActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:362:9-60
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:362:19-57
+activity#com.yukti.driveherenew.PastContractActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:364:9-366:47
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:366:13-44
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:365:13-49
+activity#com.yukti.driveherenew.search.SearchResultPastContract
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:368:9-370:45
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:370:13-42
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:369:13-60
+activity#com.yukti.driveherenew.AllDetailActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:372:9-375:59
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:374:13-29
+	android:theme
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:375:13-56
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:373:13-46
+activity#com.yukti.driveherenew.search.LastScanHistory
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:377:9-381:68
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:379:13-40
+	android:parentActivityName
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:380:13-68
+	android:theme
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:381:13-56
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:378:13-51
+activity#com.yukti.newchanges.Activity.SearchActivity
+ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:383:9-388:15
+	android:label
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:384:13-44
+	android:parentActivityName
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:386:13-55
+	android:windowSoftInputMode
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:385:13-54
+	android:theme
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:387:13-56
+	android:name
+		ADDED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml:383:19-78
+uses-sdk
+INJECTED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [DriveHere.driveHere.libraries:volley:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\volley\unspecified\AndroidManifest.xml:7:5-9:40
+MERGED from [DriveHere:library:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere\library\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:23:5-25:41
+MERGED from [com.google.android.gms:play-services-location:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.pnikosis:materialish-progress:1.7] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.github.dexafree:materiallist:3.1.3] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.github.dexafree\materiallist\3.1.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.joooonho:selectableroundedimageview:1.0.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.joooonho\selectableroundedimageview\1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.ogaclejapan.smarttablayout:library:1.6.0] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.ogaclejapan.smarttablayout\library\1.6.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [me.drakeet.materialdialog:library:1.2.8] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\me.drakeet.materialdialog\library\1.2.8\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:multidex:1.0.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml
+		INJECTED from E:\Android Studio\DriveHere\driveHere\src\main\AndroidManifest.xml
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:30:5-69
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:30:22-66
+uses-permission#android.permission.READ_CONTACTS
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:31:5-72
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:31:22-69
+uses-permission#com.android.browser.permission.READ_HISTORY_BOOKMARKS
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:32:5-93
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:32:22-90
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:34:5-76
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:34:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:35:5-76
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:35:22-73
+uses-feature#android.hardware.camera
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:38:5-40:36
+	android:required
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:39:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:41:5-43:36
+	android:required
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:43:9-33
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:42:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:46:5-48:36
+	android:required
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:48:9-33
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:47:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:49:5-51:36
+	android:required
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:51:9-33
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:50:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:52:5-70
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:52:19-67
+uses-feature#android.hardware.wifi
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:53:5-55:36
+	android:required
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:55:9-33
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:54:9-45
+uses-feature#android.hardware.touchscreen
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:57:5-65
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:57:19-62
+supports-screens
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:60:5-65:40
+	android:largeScreens
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:62:9-36
+	android:smallScreens
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:64:9-36
+	android:normalScreens
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:63:9-37
+	android:xlargeScreens
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:65:9-37
+	android:anyDensity
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:61:9-34
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:71:9-131:20
+	android:clearTaskOnLaunch
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:73:13-45
+	android:screenOrientation
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:74:13-56
+	android:stateNotNeeded
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:75:13-42
+	android:windowSoftInputMode
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:77:13-60
+	android:theme
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:76:13-48
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:72:13-75
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.SCAN
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:78:13-82:29
+action#com.google.zxing.client.android.SCAN
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:79:17-79
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:79:25-76
+category#android.intent.category.DEFAULT
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:81:17-76
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:81:27-73
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:84:13-94:29
+action#android.intent.action.VIEW
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:85:17-69
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:85:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:88:17-78
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:88:27-75
+data
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:90:17-93:45
+	android:path
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:92:21-41
+	android:host
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:91:21-53
+	android:scheme
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:93:21-42
+activity#com.google.zxing.client.android.PreferencesActivity
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:132:9-135:45
+	android:label
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:134:13-53
+	android:stateNotNeeded
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:135:13-42
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:133:13-79
+activity#com.google.zxing.client.android.encode.EncodeActivity
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:136:9-160:20
+	android:stateNotNeeded
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:138:13-42
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:137:13-81
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.ENCODE
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:139:13-143:29
+action#com.google.zxing.client.android.ENCODE
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:140:17-81
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:140:25-78
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:145:13-151:29
+action#android.intent.action.SEND
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:146:17-69
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:146:25-66
+activity#com.google.zxing.client.android.book.SearchBookContentsActivity
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:161:9-171:20
+	android:screenOrientation
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:164:13-56
+	android:label
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:163:13-45
+	android:stateNotNeeded
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:165:13-42
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:162:13-91
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.SEARCH_BOOK_CONTENTS
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:166:13-170:29
+action#com.google.zxing.client.android.SEARCH_BOOK_CONTENTS
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:167:17-95
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:167:25-92
+activity#com.google.zxing.client.android.share.ShareActivity
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:172:9-181:20
+	android:screenOrientation
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:174:13-45
+	android:stateNotNeeded
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:175:13-42
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:173:13-79
+intent-filter#android.intent.category.DEFAULT+com.google.zxing.client.android.SHARE
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:176:13-180:29
+action#com.google.zxing.client.android.SHARE
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:177:17-80
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:177:25-77
+activity#com.google.zxing.client.android.history.HistoryActivity
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:182:9-185:45
+	android:label
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:184:13-50
+	android:stateNotNeeded
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:185:13-42
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:183:13-83
+activity#com.google.zxing.client.android.share.BookmarkPickerActivity
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:186:9-189:45
+	android:label
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:188:13-57
+	android:stateNotNeeded
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:189:13-42
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:187:13-88
+activity#com.google.zxing.client.android.share.AppPickerActivity
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:190:9-193:45
+	android:label
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:192:13-52
+	android:stateNotNeeded
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:193:13-42
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:191:13-83
+activity#com.google.zxing.client.android.HelpActivity
+ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:194:9-198:45
+	android:screenOrientation
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:197:13-45
+	android:label
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:196:13-46
+	android:stateNotNeeded
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:198:13-42
+	android:name
+		ADDED from [DriveHere.driveHere.libraries:zxingLibrary:unspecified] E:\Android Studio\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\AndroidManifest.xml:195:13-72

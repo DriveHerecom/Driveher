@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:text="Category:"
+            android:textColor="#a4a4a4"
+            android:textSize="14sp" />-->
+
+        <TextView
+            android:id="@+id/tv_categoryIE"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_height="40dp"
+            android:text="cat"
+            android:textColor="@color/primaryColor"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+<!--
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"/>-->
+
+   <!-- <TextView
+        android:layout_marginBottom="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:text="Equipment:"
+        android:textColor="@color/primaryColor"
+        android:textSize="16sp" />-->
+
+
+    <LinearLayout
+        android:id="@+id/ll_equipment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CCCCCC"/>
+
+    <!--
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"/>
+
+          &lt;!&ndash;  <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Equipment"
+                android:textColor="@color/primaryColorDark"
+                android:textSize="15dp" />
+    &ndash;&gt;
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:text="Name"
+                android:layout_marginLeft="15dp"
+                android:textColor="#BBB"
+                android:textSize="14sp" />
+
+            <TextView
+                android:carId="@+carId/tv_nameIE"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#666"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:text="Value"
+                android:layout_marginLeft="15dp"
+                android:textColor="#BBB"
+                android:textSize="14sp" />
+
+            <TextView
+                android:carId="@+carId/tv_valueIE"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#666"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"/>
+    -->
+
+
+</LinearLayout><!-- From: file:/E:/Android%20Studio/DriveHere/driveHere/src/main/res/layout/installed_equipment_layout.xml -->

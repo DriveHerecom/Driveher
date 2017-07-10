@@ -1,0 +1,1802 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!-- Oilcapacity,gastank,Model,Maxhp,maxtourque -->
+
+    <include
+        android:id="@+id/activity_search_app_bar"
+        layout="@layout/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/search"
+        android:layout_below="@+id/activity_search_app_bar"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                app:cardElevation="10dp"
+                android:background="@drawable/card_blue_background"
+                android:layout_margin="5dp"
+                android:elevation="20dp"
+                app:cardCornerRadius="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:background="@drawable/card_blue_background"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:elevation="20dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_width="match_parent"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    android:layout_height="55dp">
+
+                    <LinearLayout
+                        android:id="@+id/ll_topBasic"
+                        android:weightSum="3"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent">
+
+                        <LinearLayout
+                            android:gravity="center"
+                            android:layout_weight="0.7"
+                            android:orientation="horizontal"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent">
+
+                            <ImageView
+                                android:layout_gravity="center"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/info"
+                                />
+
+                        </LinearLayout>
+
+                    <TextView
+                        android:layout_weight="1.6"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Basic"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent">
+
+                        <ImageView
+                            android:visibility="gone"
+                            android:id="@+id/iv_rightBasic"
+                            android:layout_gravity="center"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/righttriangle"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iv_downBasic"
+                            android:layout_gravity="center"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/downtrinagle"
+                            />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <LinearLayout
+                    android:id="@+id/ll_basic"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/vin"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_weight="1"
+                                android:background="@color/white"
+                                android:hint="Vin"
+                                android:maxLength="17"
+                                android:paddingBottom="@dimen/search_row_padding_bottom"
+                                android:paddingTop="@dimen/search_row_padding_top"
+                                android:text=""
+                                android:textColor="@color/darkgray"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/tv_scan_vin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0"
+                                android:text="Scan"
+                                android:textColor="#9A9999"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/gray"></View>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@+id/rfid"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_weight="1"
+                                android:background="@color/white"
+                                android:hint="Rfid"
+                                android:inputType="numberDecimal"
+                                android:maxLength="7"
+                                android:paddingBottom="@dimen/search_row_padding_bottom"
+                                android:paddingTop="@dimen/search_row_padding_top"
+                                android:text=""
+                                android:textColor="@color/darkgray"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                android:id="@+id/tv_scan_rfid"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0"
+                                android:text="Scan"
+                                android:textColor="#9A9999"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/gray"></View>
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible">
+
+                        <EditText
+                            android:id="@+id/make"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@color/white"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:hint="Make"
+                            android:imeOptions="actionDone"
+                            android:inputType="text"
+                            android:paddingBottom="@dimen/search_row_padding_bottom"
+                            android:paddingTop="@dimen/search_row_padding_top"
+                            android:text=""
+                            android:textColor="@color/darkgray"
+                            android:textSize="18sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/gray"></View>
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/model_year"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@color/white"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:hint="Model Year"
+                            android:paddingBottom="@dimen/search_row_padding_bottom"
+                            android:paddingTop="@dimen/search_row_padding_top"
+                            android:textColor="@color/darkgray"
+                            android:textSize="18sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/gray"></View>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/lotCode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:background="@color/white"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:hint="Lot Code"
+                            android:inputType="text"
+                            android:paddingBottom="@dimen/search_row_padding_bottom"
+                            android:paddingTop="@dimen/search_row_padding_top"
+                            android:textColor="@color/darkgray"
+                            android:textSize="18sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@color/gray"></View>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+            <LinearLayout
+                android:id="@+id/ll_allOption"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    app:cardElevation="10dp"
+                    android:background="@drawable/card_blue_background"
+                    android:layout_margin="5dp"
+                    android:elevation="20dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:background="@drawable/card_red_background"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:gravity="center"
+                android:elevation="20dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                app:cardBackgroundColor="#e10101"
+                android:layout_height="55dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_topCarDetail"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_weight="0.7"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent">
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/caricon"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Car Details"
+                        android:textSize="27dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_weight="0.7"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent">
+
+                        <ImageView
+                            android:id="@+id/iv_rightCarDetails"
+                            android:layout_gravity="center"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/righttriangle"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iv_downCarDetails"
+                            android:visibility="gone"
+                            android:layout_gravity="center"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/downtrinagle"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/ll_carDetails"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@color/white"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:hint="Color"
+                        android:paddingBottom="@dimen/search_row_padding_bottom"
+                        android:paddingTop="@dimen/search_row_padding_top"
+                        android:textColor="@color/darkgray"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/gray"></View>
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <EditText
+                        android:id="@+id/model_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@color/white"
+                        android:hint="Model Number"
+                        android:imeOptions="actionDone"
+                        android:inputType="text"
+                        android:paddingBottom="@dimen/search_row_padding_bottom"
+                        android:paddingTop="@dimen/search_row_padding_top"
+                        android:textColor="@color/darkgray"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/gray"></View>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible">
+
+                    <EditText
+                        android:id="@+id/sales_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@color/white"
+                        android:focusable="false"
+                        android:hint="Price"
+                        android:paddingBottom="@dimen/search_row_padding_bottom"
+                        android:paddingTop="@dimen/search_row_padding_top"
+                        android:textColor="@color/darkgray"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/gray"></View>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edt_Miles"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@color/white"
+                        android:hint="Miles"
+                        android:inputType="numberDecimal"
+                        android:paddingBottom="@dimen/search_row_padding_bottom"
+                        android:paddingTop="@dimen/search_row_padding_top"
+                        android:textColor="@color/darkgray"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/gray"></View>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/fuel_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@color/white"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:hint="Fuel"
+                        android:paddingBottom="@dimen/search_row_padding_bottom"
+                        android:paddingTop="@dimen/search_row_padding_top"
+                        android:textColor="@color/darkgray"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/gray"></View>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/driveType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@color/white"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:hint="Drive Type"
+                        android:paddingBottom="@dimen/search_row_padding_bottom"
+                        android:paddingTop="@dimen/search_row_padding_top"
+                        android:textColor="@color/darkgray"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/gray"></View>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edcylinder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@color/white"
+                        android:hint="Cylinder"
+                        android:inputType="text"
+                        android:paddingBottom="@dimen/search_row_padding_bottom"
+                        android:paddingTop="@dimen/search_row_padding_top"
+                        android:textColor="@color/darkgray"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/gray"></View>
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/vehicleType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@color/white"
+                        android:hint="Vehicle Type"
+                        android:inputType="text"
+                        android:paddingBottom="@dimen/search_row_padding_bottom"
+                        android:paddingTop="@dimen/search_row_padding_top"
+                        android:textColor="@color/darkgray"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/gray"></View>
+                </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="Has Title?"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:visibility="visible">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<EditText-->
+                        <!--android:carId="@+carId/vin"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:background="@color/white"-->
+                        <!--android:hint="Vin"-->
+                        <!--android:maxLength="17"-->
+                        <!--android:paddingBottom="@dimen/search_row_padding_bottom"-->
+                        <!--android:paddingTop="@dimen/search_row_padding_top"-->
+                        <!--android:text=""-->
+                        <!--android:textColor="@color/darkgray"-->
+                        <!--android:textSize="18sp" />-->
+
+                    <!--<TextView-->
+                        <!--android:carId="@+carId/tv_scan_vin"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="0"-->
+                        <!--android:text="Scan"-->
+                        <!--android:textColor="#9A9999"-->
+                        <!--android:textSize="15sp" />-->
+                <!--</LinearLayout>-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_alignParentBottom="true"-->
+                    <!--android:background="@color/gray"></View>-->
+            <!--</RelativeLayout>-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:visibility="visible">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<EditText-->
+                        <!--android:carId="@+carId/rfid"-->
+                        <!--android:layout_width="0dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:background="@color/white"-->
+                        <!--android:hint="Rfid"-->
+                        <!--android:inputType="numberDecimal"-->
+                        <!--android:maxLength="7"-->
+                        <!--android:paddingBottom="@dimen/search_row_padding_bottom"-->
+                        <!--android:paddingTop="@dimen/search_row_padding_top"-->
+                        <!--android:text=""-->
+                        <!--android:textColor="@color/darkgray"-->
+                        <!--android:textSize="18sp" />-->
+
+                    <!--<TextView-->
+                        <!--android:carId="@+carId/tv_scan_rfid"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="0"-->
+                        <!--android:text="Scan"-->
+                        <!--android:textColor="#9A9999"-->
+                        <!--android:textSize="15sp" />-->
+                <!--</LinearLayout>-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_alignParentBottom="true"-->
+                    <!--android:background="@color/gray"></View>-->
+            <!--</RelativeLayout>-->
+
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:visibility="visible">-->
+
+                <!--<EditText-->
+                    <!--android:carId="@+carId/make"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:background="@color/white"-->
+                    <!--android:focusable="false"-->
+                    <!--android:focusableInTouchMode="false"-->
+                    <!--android:hint="Make"-->
+                    <!--android:imeOptions="actionDone"-->
+                    <!--android:inputType="text"-->
+                    <!--android:paddingBottom="@dimen/search_row_padding_bottom"-->
+                    <!--android:paddingTop="@dimen/search_row_padding_top"-->
+                    <!--android:text=""-->
+                    <!--android:textColor="@color/darkgray"-->
+                    <!--android:textSize="18sp" />-->
+
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:layout_alignParentBottom="true"-->
+                    <!--android:background="@color/gray"></View>-->
+            <!--</RelativeLayout>-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/model"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:hint="Model"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+
+            <!--<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:carId="@+carId/model_year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="Model Year"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>-->
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edt_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="Location Title?"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+            <!-- ............ new added Field........... -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/modelNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:hint="Model Number"
+                    android:inputType="numberDecimal"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:id="@+id/maxHP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:hint="Max HP"
+                    android:inputType="numberDecimal"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/maxTorque"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:hint="Max Torque"
+                    android:inputType="numberDecimal"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/oilCapacity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:hint="Oil Capacity"
+                    android:inputType="numberDecimal"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/company"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:hint="Company"
+                    android:inputType="text"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/stockNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:hint="Stock Number"
+                    android:inputType="text"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/purchasedFrom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:hint="Purchased From"
+                    android:inputType="text"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <EditText
+                    android:id="@+id/edt_gas_tank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="Gas Tank"
+                    android:inputType="text"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/note"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:hint="Note"
+                    android:inputType="text"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/note_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:hint="Note Date"
+                    android:inputType="text"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/gps_installed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="Gps Installed?"
+                    android:inputType="text"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    app:cardElevation="10dp"
+                    android:background="@drawable/card_blue_background"
+                    android:layout_margin="5dp"
+                    android:elevation="20dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:background="@drawable/card_green_background"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <android.support.v7.widget.CardView
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:elevation="20dp"
+                            app:cardCornerRadius="20dp"
+                            android:layout_width="match_parent"
+                            app:cardBackgroundColor="@color/green"
+                            android:layout_height="55dp">
+
+                            <LinearLayout
+                                android:id="@+id/ll_topStatuses"
+                                android:weightSum="3"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_weight="0.7"
+                                    android:orientation="horizontal"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent">
+
+                                    <ImageView
+                                        android:layout_gravity="center"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/pulse"
+                                        />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_weight="1.5"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Statuses"
+                                    android:textSize="30dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/white"
+                                    />
+
+
+                                <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_weight="0.7"
+                                    android:orientation="horizontal"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent">
+
+                                    <ImageView
+                                        android:id="@+id/iv_rightStatuses"
+                                        android:layout_gravity="center"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/righttriangle"
+                                        />
+
+                                    <ImageView
+                                        android:id="@+id/iv_downStatuses"
+                                        android:visibility="gone"
+                                        android:layout_gravity="center"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/downtrinagle"
+                                        />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+
+<!--Statuses-->
+                        <LinearLayout
+                            android:visibility="gone"
+                            android:id="@+id/ll_statuses"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/vehicle_status"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:background="@color/white"
+                                    android:focusable="false"
+                                    android:focusableInTouchMode="false"
+                                    android:hint="Vehicle Status"
+                                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                                    android:paddingTop="@dimen/search_row_padding_top"
+                                    android:textColor="@color/darkgray"
+                                    android:textSize="18sp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:background="@color/gray"></View>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/edt_hasRfid"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:background="@color/white"
+                                    android:focusable="false"
+                                    android:focusableInTouchMode="false"
+                                    android:hint="Has Rfid"
+                                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                                    android:paddingTop="@dimen/search_row_padding_top"
+                                    android:textColor="@color/darkgray"
+                                    android:textSize="18sp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:background="@color/gray"></View>
+                            </RelativeLayout>
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/edt_vacancySearch"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:background="@color/white"
+                                    android:focusable="false"
+                                    android:focusableInTouchMode="false"
+                                    android:hint="Vacancy"
+                                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                                    android:paddingTop="@dimen/search_row_padding_top"
+                                    android:textColor="@color/darkgray"
+                                    android:textSize="18sp"
+
+                                    />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:background="@color/gray"></View>
+                            </RelativeLayout>
+
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/vehicle_stage"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:background="@color/white"
+                                    android:focusable="false"
+                                    android:focusableInTouchMode="false"
+                                    android:hint="Vehicle Stage"
+                                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                                    android:paddingTop="@dimen/search_row_padding_top"
+                                    android:textColor="@color/darkgray"
+                                    android:textSize="18sp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:background="@color/gray"></View>
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+            app:cardElevation="10dp"
+            android:background="@drawable/card_blue_background"
+            android:layout_margin="5dp"
+            android:elevation="20dp"
+            app:cardCornerRadius="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:background="@drawable/card_orange_background"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.CardView
+                android:clickable="true"
+                android:gravity="center"
+                android:elevation="20dp"
+                app:cardCornerRadius="20dp"
+                android:layout_width="match_parent"
+                app:cardBackgroundColor="@color/orange"
+                android:layout_height="55dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_topService"
+                    android:weightSum="3"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_weight="0.7"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent">
+
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/support"
+                            />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Service"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_weight="0.7"
+                        android:orientation="horizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent">
+
+                        <ImageView
+                            android:id="@+id/iv_rightServices"
+                            android:layout_gravity="center"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/righttriangle"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iv_downServices"
+                            android:visibility="gone"
+                            android:layout_gravity="center"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/downtrinagle"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+<!--  Service -->
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/ll_service"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/service_stage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@color/white"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:hint="Service Stage"
+                        android:paddingBottom="@dimen/search_row_padding_bottom"
+                        android:paddingTop="@dimen/search_row_padding_top"
+                        android:textColor="@color/darkgray"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/gray"></View>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/problem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@color/white"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:hint="Problem"
+                        android:paddingBottom="@dimen/search_row_padding_bottom"
+                        android:paddingTop="@dimen/search_row_padding_top"
+                        android:textColor="@color/darkgray"
+                        android:textSize="18sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/gray"></View>
+                </RelativeLayout>
+
+                <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/done_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="Done date"
+                    android:inputType="text"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/done_dateLotcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="Done date Lotcode"
+                    android:inputType="text"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edt_MechanicSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:hint="Mechanic"
+                    android:inputType="text"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/gray"></View>
+            </RelativeLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    app:cardElevation="10dp"
+                    android:background="@drawable/card_blue_background"
+                    android:layout_margin="5dp"
+                    android:elevation="20dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <LinearLayout
+                        android:background="@drawable/card_brown_background"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <android.support.v7.widget.CardView
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:elevation="20dp"
+                            app:cardCornerRadius="20dp"
+                            android:layout_width="match_parent"
+                            app:cardBackgroundColor="#531702"
+                            android:layout_height="55dp">
+
+                            <LinearLayout
+                                android:id="@+id/ll_topAuction"
+                                android:weightSum="3"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="fill_parent">
+
+                                <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_weight="0.7"
+                                    android:orientation="horizontal"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent">
+
+                                    <ImageView
+                                        android:layout_gravity="center"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/gavel"
+                                        />
+
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_weight="1.5"
+                                    android:layout_gravity="center"
+                                    android:gravity="center"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Auction"
+                                    android:textSize="30dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/white"
+                                    />
+
+                                <LinearLayout
+                                    android:gravity="center"
+                                    android:layout_weight="0.7"
+                                    android:orientation="horizontal"
+                                    android:layout_width="0dp"
+                                    android:layout_height="fill_parent">
+
+                                    <ImageView
+                                        android:id="@+id/iv_rightAuction"
+                                        android:layout_gravity="center"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/righttriangle"
+                                        />
+
+                                    <ImageView
+                                        android:id="@+id/iv_downAuction"
+                                        android:visibility="gone"
+                                        android:layout_gravity="center"
+                                        android:layout_width="40dp"
+                                        android:layout_height="40dp"
+                                        android:src="@drawable/downtrinagle"
+                                        />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+
+<!-- Auction -->
+                        <LinearLayout
+                            android:visibility="gone"
+                            android:id="@+id/ll_auction"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginBottom="10dp"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/auctionName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:background="@color/white"
+                                    android:focusable="false"
+                                    android:focusableInTouchMode="false"
+                                    android:hint="Auction Name"
+                                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                                    android:paddingTop="@dimen/search_row_padding_top"
+                                    android:textColor="@color/darkgray"
+                                    android:textSize="18sp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:background="@color/gray"></View>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/edt_auctiondate"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:background="@color/white"
+                                    android:focusable="false"
+                                    android:focusableInTouchMode="false"
+                                    android:hint="Auction Date"
+                                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                                    android:paddingTop="@dimen/search_row_padding_top"
+                                    android:textColor="@color/darkgray"
+                                    android:textSize="18sp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:background="@color/gray"></View>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/edt_car_ready"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:background="@color/white"
+                                    android:focusable="false"
+                                    android:focusableInTouchMode="false"
+                                    android:hint="Car Ready For Auction?"
+                                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                                    android:paddingTop="@dimen/search_row_padding_top"
+                                    android:textColor="@color/darkgray"
+                                    android:textSize="18sp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:background="@color/gray"></View>
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+                                    android:id="@+id/edt_car_at_auction"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:background="@color/white"
+                                    android:focusable="false"
+                                    android:focusableInTouchMode="false"
+                                    android:hint="Car At The Auction?"
+                                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                                    android:paddingTop="@dimen/search_row_padding_top"
+                                    android:textColor="@color/darkgray"
+                                    android:textSize="18sp" />
+
+                                <View
+                                    android:layout_width="match_parent"
+                                    android:layout_height="1dp"
+                                    android:layout_alignParentBottom="true"
+                                    android:background="@color/gray"></View>
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+            <RelativeLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="end"
+                    android:paddingTop="7dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/white"
+                    android:text="More.."
+                    android:textStyle="italic"
+                    android:textColor="@color/darkgray"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_selector_orange"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/searchTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEARCH"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/E:/Android%20Studio/DriveHere/driveHere/src/main/res/layout/activity_search.xml -->

@@ -1,0 +1,88 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yukti.driveherenew.CarDetailsActivity" >
+
+    <!--<item-->
+        <!--android:carId="@+carId/action_book"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:showAsAction="never"-->
+        <!--android:title="Book"/>-->
+    <item
+        android:id="@+id/action_map"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:visible="false"
+        android:title="History"/>
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="Edit"/>
+    <item
+        android:id="@+id/action_stages"
+        android:orderInCategory="103"
+        android:showAsAction="never"
+        android:title="Edit Stages"/>
+    <item
+        android:id="@+id/action_auction"
+        android:orderInCategory="104"
+        android:showAsAction="never"
+        android:title="Auction"/>
+    <item
+        android:id="@+id/dataone"
+        android:orderInCategory="105"
+        android:showAsAction="never"
+        android:title="Dataone"/>
+    <item
+        android:id="@+id/doneDate"
+        android:orderInCategory="106"
+        android:showAsAction="never"
+        android:title="Done Date"/>
+    <item
+        android:id="@+id/leasehistory"
+        android:orderInCategory="106"
+        android:showAsAction="never"
+        android:title="Lease History"/>
+    <item
+        android:id="@+id/goldstarlocation"
+        android:orderInCategory="106"
+        android:showAsAction="never"
+        android:title="Goldstar Location"/>
+    <item
+        android:id="@+id/lastScanHistory"
+        android:orderInCategory="106"
+        android:showAsAction="never"
+        android:title="Last Scan History"/>
+    <item
+        android:id="@+id/title"
+        android:orderInCategory="106"
+        android:showAsAction="never"
+        android:title="Title"/>
+    <item
+        android:id="@+id/webPictures"
+        android:orderInCategory="106"
+        android:showAsAction="never"
+        android:title="Web Pictures"/>
+
+    <!-- <item -->
+    <!-- android:carId="@+carId/action_floor_price" -->
+    <!-- android:orderInCategory="105" -->
+    <!-- android:showAsAction="never" -->
+    <!-- android:title="Floor Price"/> -->
+    <!-- <item -->
+    <!-- android:carId="@+carId/action_Condition" -->
+    <!-- android:orderInCategory="105" -->
+    <!-- android:showAsAction="never" -->
+    <!-- android:title="Condition"/> -->
+    <!-- <item -->
+    <!-- android:carId="@+carId/action_Miles" -->
+    <!-- android:orderInCategory="106" -->
+    <!-- android:showAsAction="never" -->
+    <!-- android:title="Edit Miles"/> -->
+    <!-- <item -->
+    <!-- android:carId="@+carId/action_Pictures" -->
+    <!-- android:orderInCategory="107" -->
+    <!-- android:showAsAction="never" -->
+    <!-- android:title="Pictures"/> -->
+
+</menu>

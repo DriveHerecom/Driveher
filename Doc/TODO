@@ -1,0 +1,289 @@
+21-04-2015
+---------------------------
+
+1) Scan and read RFID  ---------------------------------------------------------------------------------### DONE ###
+2) Add a car manually ( backend without going through pending ). 
+3) Add a stage call CB ( this was on the list of changes ). --------------------------------------------### DONE ###
+4) Add a field call Problem in search and Add care and at backend also.  -------------------------------### DONE ###
+		-> problem type
+			Engine
+			Transmission
+			Electrical
+			Inspection
+			Clear
+			
+5) Add a field call title with two option (yes, no) in search, add car and at back end also  -----------### DONE ###
+6) Search input manually car.  -------------------------------------------------------------------------### DONE ###
+
+*************************************************************************************************************************
+
+23-04-2015
+---------------------------------------------------------
+1) Update is not done in back end part yet.   ------------------------------------------------------------------------### DONE ###
+
+2) i would like that when i add a new car title is "NO" by default. --------------------------------------------------### DONE ###
+
+3) on the search VIN could i type the last 8 characters of the VIN and show me if it is any match?
+
+4) In list of search result
+	A) Year append front of make (title)  ----------------------------------------------------------------------------### DONE ###
+	B) Instant of year put the stage      ----------------------------------------------------------------------------### DONE ###
+	C) Under the stage put problem        ----------------------------------------------------------------------------### DONE ###
+	D) remove fuel type n put note        ----------------------------------------------------------------------------### DONE ###
+	E) will be great if the color black that shows you the pictures number become green when title is yes  -----------### DONE ###
+
+
+
+****************************************************************************************************************
+
+23-04-2015
+---------------------------------------------------------
+ 
+1) Only thing left is photo submission of car when you add or update car detail. Rest all are working.
+
+
+Field:
+Has title? 
+Options:
+Yes  No  Blank  
+ 
+Location Title?
+Options:
+DHP DHC CV
+ 
+Search for the field Has title
+ 
+Has Title?
+ 
+Options:
+Yes No All
+ 
+Location Title?
+Options:
+DHP DHC CV
+ 
+PENDING
+
+FLOW OF APPLICATION BY USERS AND HOW CLOSE THIS FIELDS SHOULD BE NEXT TO EACH OTHER TO MAKE THINGS EASIER FOR USERS
+
+1-Scan RFID‏
+ 
+2-Scan or Input VIN‏
+ 
+***DATAONE ONE BRINGS ALL THE DATA‏
+ 
+3- Verify Decoding info‏
+‎
+4-Main picture of car with rfid on the whinshield. Full body picture‏
+ 
+5-Picture of the VIN‏
+ 
+6-Input Car Miles‏
+ 
+7-Type Lot Code‏
+ 
+8-Status‏
+ 
+9-Stage‏
+ 
+ 
+ 
+Search
+1. Search> Find> Edit
+Any changes on the edit of the fields doesn't get update it instantly. You have to search find the car again and edit the information.
+2. Status and Stage on top of the search.
+3. Stage doesn't work correctly on the Search, the search results for stage pulls out all results (this fix is top priority)
+4. The cars that go to pending we would like to be on the search. Thus Search should have an option to search cars in pending or not in pending.
+5. In the search functionality of the app there is a default value. Please remove this.
+Edit
+6. We want to see the same information in search as well as all the information we can edit.
+7. Under edit we want all the fields to work correctly with select, copy and paste options.
+8. We need the complete set of dataone values to be pull and be editable
+For example; "color" needs to be pull from dataone decoder not from a system selection and also needs to be editable
+9. When you edit a car. We don't want any user to change the VIN number and for the RFID to type a PIN number to confirm the change or type the word "confirm"
+ 
+
+ 
+ 
+Fields
+10. Add Stock number to Application, including in search
+
+11. Add field to the inventory call inspection sticker with expiration date field
+
+12. We need to add a Stage call CB (came Back) this stage is between QC and 40 Miles.
+
+13. Miles, need to remove KM and .00
+
+14. We need the complete set of dataone values to be pull and be editable
+
+For example; "color" needs to be pull from dataone decoder not from a system selection and also needs to be editable.
+
+15. GPS field serial number needs to be added (search, scanner, database)
+
+16. The fields exit option or back button doesn't work correctly after adding info. All the information gets lost
+
+ 
+
+ 
+
+Main Screen
+
+17. Scanner should be call inventory in the main screen.
+
+ 
+
+Manual Input VIN Number
+
+18. the application has crashed several times when we do a manual vin number input.
+
+19. we have problems reading standard flat VIN images with a black background
+
+ 
+
+Crashing
+
+20. this vin code " KMHDN46D45U186724 " wasn't read by the app however we tested in the dataone decoder and it works great.
+
+1.   <year>2005</year>
+
+2.  <make>Hyundai</make>
+3.  <model>Elantra</model>
+ 
+Back End
+
+21. In the back end there is no option to add a car
+
+ 
+
+Map
+
+22. In the app, the Map option (top right, next to edit) not working.
+
+23. In addition we would like to see the history of the scanning  addresses (not latitude and longitude as now) and the time in one line per scanning as a history field. With a FIFO structure
+
+4/14/2015  Time: 8:50 PM  Address: 1001 West Ridge Pike, Conshocken, PA
+
+4/13/2015  Time: 6:50 PM  Address: 1001 West Ridge Pike, Conshocken, PA
+
+4/12/2015  Time: 3:32 PM  Address: 928  Essignton Avenue, Philadelphia, PA
+
+ 
+
+Future Changes
+1.     We would love to incorporate a OCR scan for numbers that we don't want to input
+
+2.     All the search should be for all the characters that appear in the search in any order *.*
+
+3.     We want to get data recall alert from dataone when we scan an item.
+
+***I need to ask dataone about this.
+
+
+
+---------- Forwarded message ----------
+From: Ignacio Delgado <ignacio@drivehere.com>
+Date: Tue, Apr 14, 2015 at 7:58 PM
+Subject: Bugs and changes 4.14.2015
+To: "Advanced Crealogy MDV C.A." <info@mascreativa.com.ve>
+
+
+Hi Kapil, 
+attached here and reflected in this email is the list of changes and bugs we found in the inventory application.
+
+We want to take care of these items as soon as possible. If you want to dedicate people and resources to this please let me know and we will adjust accordingly.
+
+Search
+1. Search> Find> Edit
+Any changes on the edit of the fields doesn't get update it instantly. You have to search find the car again and edit the information.
+
+2. Status and Stage on top of the search.
+
+3. Stage doesn't work correctly on the Search, the search results for stage pulls out all results (this fix is top priority)
+
+4. The cars that go to pending we would like to be on the search. Thus Search should have an option to search cars in pending or not in pending.
+
+5. In the search functionality of the app there is a default value. Please remove this.
+
+
+Edit
+6. We want to see the same information in search as well as all the information we can edit.
+
+7. Under edit we want all the fields to work correctly with select, copy and paste options.
+
+8. We need the complete set of dataone values to be pull and be editable
+For example; "color" needs to be pull from dataone decoder not from a system selection and also needs to be editable
+
+9. When you edit a car. We don't want any user to change the VIN number and for the RFID to type a PIN number to confirm the change or type the word "confirm"
+Fields
+
+10. Add Stock number to Application, including in search
+
+11. Add field to the inventory call inspection sticker with expiration date field
+
+12. We need to add a Stage call CB (came Back) this stage is between QC and 40 Miles.
+
+13. Miles, need to remove KM and .00
+
+14. We need the complete set of dataone values to be pull and be editable
+
+For example; "color" needs to be pull from dataone decoder not from a system selection and also needs to be editable.
+
+15. GPS field serial number needs to be added (search, scanner, database)
+
+16. The fields exit option or back button doesn't work correctly after adding info. All the information gets lost
+
+ 
+
+Main Screen
+
+17. Scanner should be call inventory in the main screen.
+
+17.2 Add Last Version number into the bottom
+
+ 
+
+Manual Input VIN Number
+
+18. the application has crashed several times when we do a manual vin number input.
+
+19. we have problems reading standard flat VIN images with a black background
+
+ 
+
+Crashing
+
+20. this vin code " KMHDN46D45U186724 " wasn't read by the app however we tested in the dataone decoder and it works great.
+
+1.   <year>2005</year>
+
+2.  <make>Hyundai</make>
+3.  <model>Elantra</model>
+ 
+Back End
+
+21. In the back end there is no option to add a car
+
+ 
+
+Map
+
+22. In the app, the Map option (top right, next to edit) not working.
+
+23. In addition we would like to see the history of the scanning  addresses (not latitude and longitude as now) and the time in one line per scanning as a history field. With a FIFO structure
+
+4/14/2015  Time: 8:50 PM  Address: 1001 West Ridge Pike, Conshocken, PA
+
+4/13/2015  Time: 6:50 PM  Address: 1001 West Ridge Pike, Conshocken, PA
+
+4/12/2015  Time: 3:32 PM  Address: 928  Essignton Avenue, Philadelphia, PA
+
+ 
+
+Future Changes
+1.    A)  We would love to incorporate a OCR scan for numbers that we don't want to input
+
+B) All the search should be for all the characters that appear in the search in any order *.*
+
+C)We want to get data recall alert from dataone when we scan an item.
+
+***I need to ask dataone about this.

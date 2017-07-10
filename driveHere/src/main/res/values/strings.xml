@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">New DriveHere</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="terms_and_condition"><html><u>Terms &amp; Conditions</u></html></string>
+    <string name="album_name">DriveHereImages</string>
+
+    <string name="document">Document</string>
+    <string name="customer">Customer</string>
+    <string name="loaner_car">Loaner Car</string>
+    <string name="return_car">Return Car</string>
+    <string name="first_name">First name :</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="last_name">Last name :</string>
+
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <string name="contract_id">Contract_Id</string>
+    <string name="enter_last_name">Enter last name :</string>
+    <string name="Contract_Id">Contract_Id</string>
+    <string name="cell_phone_number">Cell phone number :</string>
+    <string name="enter_cell_phone_number">Enter cell phone number :</string>
+    <string name="home_phone_number">Home phone number :</string>
+    <string name="enter_home_phone_number">Enter home phone number</string>
+    <string name="enter_inspectiondate">Inspection Date:</string>
+    <string name="enter_Registrationdate">Registration Date</string>
+    <string name="enter_Insurance">Insurance Date</string>
+    <string name="work_phone_number">Work phone number:</string>
+    <string name="lic_number">Licence Number</string>
+    <string name="enter_work_phone_number">Enter Work phone number</string>
+    <string name="enter_lic_number">Enter Licence number</string>
+    <string name="driving_license">Driving license:</string>
+    <string name="contract">Contract:</string>
+    <string name="stock_number">Stock number:</string>
+    <string name="enter_stock_number">Enter stock number</string>
+    <string name="insurance">Insurance:</string>
+    <string name="Tagofcar">Tag:</string>
+    <string name="scan">Scan</string>
+    <string name="vin">VIN:</string>
+    <string name="enter_vin">Enter vin</string>
+    <string name="enter_mileage">Enter mileage</string>
+    <string name="mileage">Mileage:</string>
+    <string name="gas_tank">Gas tank</string>
+    <string name="reason">Reason</string>
+    <string name="enter_gas_tank">Enter gas tank</string>
+    <string name="spinner_gastank">Choose Gas Tank</string>
+    <string name="spinner_reason">Choose Reason</string>
+    <string name="inspection">Inspection</string>
+    <string name="recevedinsurance">RecevedInsurance</string>
+    <string name="recevedinsuranceandinsurancecards">Customer Received Registration and Insurance Cards</string>
+    <string name="notes">Notes:</string>
+    <string name="enter_notes">Enter notes</string>
+    <string name="pictures">Add photos :</string>
+    <string name="date_and_time_received">Date and time Received </string>
+    <string name="date_of_booking">Date Of Booking </string>
+    <string name="date_and_time_expected">Expected Date of Returning</string>
+    <string name="lot_received">Lot received:</string>
+    <string name="enter_lot_received">Enter lot received</string>
+    <string name="received_by">Received by</string>
+    <string name="enter_received_by">Enter received by</string>
+    <string name="enter_contract_id">Enter contract id</string>
+    <string name="add_rental">Add rental</string>
+    <string name="title_activity_backend_detail">Backend</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_add_customer">AddCustomer</string>
+    <string name="add_rent">Add Rent</string>
+
+
+    <integer name="viewfinder_border_width">4</integer>
+    <integer name="viewfinder_border_length">60</integer>
+
+    <string name="scanner_activity">ZXing Scanner - Full Activity</string>
+    <string name="scanner_fragment_activity">ZXing Scanner - Full Fragment Activity</string>
+    <string name="simple_scanner_activity">ZXing Scanner - Simple Activity</string>
+    <string name="simple_scanner_fragment_activity">ZXing Scanner - Simple Fragment Activity</string>
+    <string name="simple_activity_sample">Simple Activity Sample</string>
+    <string name="simple_fragment_sample">Simple Fragment Sample</string>
+    <string name="activity_sample">Full Activity Sample</string>
+    <string name="fragment_sample">Full Fragment Sample</string>
+    <string name="toggle_flash">Flash</string>
+    <string name="update">Update</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Auto Focus [ON]</string>
+    <string name="auto_focus_off">Auto Focus [OFF]</string>
+    <string name="formats">Formats</string>
+    <string name="choose_formats">Choose Formats</string>
+    <string name="choose_action">Choose Action</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="label_scanner">Scanner</string>
+    <string name="vin_sample">2D4GP24RX5R107992</string>
+    <string name="apply_filter">Apply Filter</string>
+    <string name="apply_reset">Reset</string>
+
+
+    <string name="OK">OK</string>
+    <string-array name="scanner_items">
+        <item>Input Number</item>
+        <item>Scan</item>
+    </string-array>
+    <string-array name="car_ready">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="car_atauction">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="vacancylist">
+        <item>Available</item>
+        <item>Sold</item>
+    </string-array>
+    <string name="title_activity_input_scan">Manual Input</string>
+    <string name="google_api_key">AIzaSyC1VM5haXq_2P5WX_60v-aygO_CFHGlzOY</string>
+    <string name="title_activity_add_new_car">Add New</string>
+    <string name="title_activity_login">Login First</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_scanner">Scanner</string>
+    <string name="title_activity_terms_and_conditions">Terms And Conditions</string>
+    <string name="dataone_client_id">10340</string>
+    <string name="dataone_authorization_code">6834e7346d423aa2a31b6c257835766342b86464</string>
+    <string name="decoder_query_json">    {\"decoder_settings\": {
+        \"display\": \"full\",
+        \"version\": \"7.0.1\",
+        \"styles\": \"on\",
+        \"style_data_packs\": {
+            \"basic_data\": \"on\",
+            \"pricing\": \"on\",
+            \"engines\": \"on\",
+            \"transmissions\": \"on\",
+            \"specifications\": \"on\",
+            \"installed_equipment\": \"on\",
+            \"optional_equipment\": \"off\",
+            \"colors\": \"on\",
+            \"safety_equipment\": \"on\",
+            \"warranties\": \"on\",
+            \"fuel_efficiency\": \"on\",
+            \"green_scores\": \"on\",
+            \"crash_test\": \"on\",
+            \"awards\": \"on\"
+        },
+        \"common_data\": \"on\",
+        \"common_data_packs\": {
+            \"basic_data\": \"on\",
+            \"pricing\": \"on\",
+            \"engines\": \"on\",
+            \"transmissions\": \"on\",
+            \"specifications\": \"on\",
+            \"installed_equipment\": \"on\",
+            \"optional_equipment\": \"on\",
+            \"colors\": \"on\",
+            \"safety_equipment\": \"on\",
+            \"warranties\": \"on\",
+            \"fuel_efficiency\": \"on\",
+            \"green_scores\": \"on\",
+            \"crash_test\": \"on\",
+            \"awards\": \"on\"
+        }
+    },
+    \"query_requests\": {
+        \"Request-Sample\": {
+            \"vin\": \"xxxxx\",
+            \"year\": \"\",
+            \"make\": \"\",
+            \"model\": \"\",
+            \"trim\": \"\",
+            \"model_number\": \"\",
+            \"package_code\": \"\",
+            \"drive_type\": \"\",
+            \"vehicle_type\": \"\",
+            \"body_type\": \"\",
+            \"body_subtype\": \"\",
+            \"doors\": \"\",
+            \"bedlength\": \"\",
+            \"wheelbase\": \"\",
+            \"msrp\": \"\",
+            \"invoice_price\": \"\",
+            \"engine\": {
+                \"description\": \"\",
+                \"block_type\": \"\",
+                \"cylinders\": \"\",
+                \"displacement\": \"\",
+                \"fuel_type\": \"\"
+            },
+            \"transmission\": {
+                \"description\": \"\",
+                \"trans_type\": \"\",
+                \"trans_speeds\": \"\"
+            },
+            \"optional_equipment_codes\": \"\",
+            \"installed_equipment_descriptions\": \"\",
+            \"interior_color\": {
+                \"description\": \"\",
+                \"color_code\": \"\"
+            },
+            \"exterior_color\": {
+                \"description\": \"\",
+                \"color_code\": \"\"
+            }
+        }
+    }
+}
+</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_search_result">Search Result</string>
+    <string name="title_activity_car_details">Details</string>
+
+    <string-array name="VehicleStatus">
+        <item>Null</item>
+        <item>JUNK</item>
+        <item>AUCTION</item>
+        <item>PARTS</item>
+        <item>MISSING</item>
+        <item>LOANER_IN</item>
+        <item>LOANER_OUT</item>
+        <item>LOANER_SERVICE</item>
+        <item>LOANER_MISSING</item>
+        <item>LOANER_NO_RFID</item>
+
+    </string-array>
+
+    <!-- DHC -04, DHP -05, CV -51, BS -52, 405 -53, Unknown -->
+    <string-array name="Lotcode">
+        <item>DHC-04</item>
+        <item>DHP-05</item>
+        <item>CV-51</item>
+        <item>BS-52</item>
+        <item>Int</item>
+        <item>405-53</item>
+        <item>Unknown</item>
+    </string-array>
+
+    <string-array name="Problem">
+        <item>Engine</item>
+        <item>Transmission</item>
+        <item>Electrical</item>
+        <item>Inspection</item>
+        <item>Key</item>
+        <item>Clear</item>
+        <item>BodyShop</item>
+    </string-array>
+
+    <string-array name="Title">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="Title_Serch">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="location_title">
+        <item>DHP</item>
+        <item>DHC</item>
+        <item>CV</item>
+    </string-array>
+    <string-array name="Gps">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="GasTankList">
+        <item>Full</item>
+        <item>Half</item>
+        <item>3/4</item>
+        <item>1/4</item>
+    </string-array>
+
+    <string-array name="PriceList">
+        <item>0 - 500</item>
+        <item>500 - 1,000</item>
+        <item>1,000 - 2,000</item>
+        <item>2,000 - 3,000</item>
+        <item>3,000 - 4,000</item>
+        <item>4,000 - 5,000</item>
+        <item>5,000 - 6,000</item>
+        <item>6,000 - 7,000</item>
+        <item>7,000 - 8,000</item>
+        <item>8,000 - 9,000</item>
+        <item>9,000 - 10,000</item>
+        <item>10,000 - 15,000</item>
+        <item>15,000 - 20,000</item>
+        <item>20,000 - 25,000</item>
+        <item>25,000 - 30,000</item>
+        <item>30,000 - 40,000</item>
+        <item>40,000 - 50,000</item>
+        <item>50,000 - 60,000</item>
+        <item>60,000 - 70,000</item>
+        <item>70,000 - 80,000</item>
+        <item>80,000 - 90,000</item>
+        <item>90,000 - 100,000</item>
+        <item>100,000 - 110,000</item>
+    </string-array>
+
+    <string-array name="ColorName">
+        <item>Grey</item>
+        <item>White</item>
+        <item>Brown</item>
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Beige</item>
+        <item>Gold</item>
+        <item>Red</item>
+        <item>yellow</item>
+        <item>Purple</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Blue-Green</item>
+        <item>Red-Purple</item>
+        <item>Orange-Yellow</item>
+        <item>Silver</item>
+    </string-array>
+
+    <string-array name="ColorNameCapital">
+        <item>GREY</item>
+        <item>WHITE</item>
+        <item>BROWN</item>
+        <item>BLACK</item>
+        <item>BLUE</item>
+        <item>GREEN</item>
+        <item>BEIGE</item>
+        <item>GOLD</item>
+        <item>RED</item>
+        <item>YELLOW</item>
+        <item>PURPLE</item>
+        <item>PINK</item>
+        <item>ORANGE</item>
+        <item>BlUE-GREEN</item>
+        <item>RED-PURPLE</item>
+        <item>ORANGE-YELLOW</item>
+        <item>SILVER</item>
+    </string-array>
+
+    <string-array name="ColorValue">
+        <item>#C0C0C0</item>
+        <item>#FFFFFF</item>
+        <item>#773300</item>
+        <item>#000000</item>
+        <item>#0000FF</item>
+        <item>#00FF00</item>
+        <item>#C48F35</item>
+        <item>#FFBF00</item>
+        <item>#FF0000</item>
+        <item>#FFFF00</item>
+        <item>#700A99</item>
+        <item>#FF00FF</item>
+        <item>#FF7F00</item>
+        <item>#7FBFBF</item>
+        <item>#BF007F</item>
+        <item>#f8e22a</item>
+        <item>#DCDCDC</item>
+    </string-array>
+
+    <string-array name="ConditionColorValue">
+        <item>#A0C15A</item>
+        <item>#ADD633</item>
+        <item>#FFD935</item>
+        <item>#FFB235</item>
+        <item>#FF8C5A</item>
+    </string-array>
+
+    <string-array name="LotCodeColorValue">
+        <item>#00FF00</item>
+        <item>#0000FF</item>
+        <item>#FF0000</item>
+        <item>#FFFF00</item>
+        <item>#FF7F00</item>
+        <item>#00FF22</item>
+        <item>#001566</item>
+        <item>#001566</item>
+    </string-array>
+
+    <string-array name="Make">
+        <item>ACURA</item>
+        <item>AUDI</item>
+        <item>BMW</item>
+        <item>BUICK</item>
+        <item>CADILLAC</item>
+        <item>CHEVROLET</item>
+        <item>CHEVY</item>
+        <item>CHRYSLER</item>
+        <item>DODGE</item>
+        <item>EAGLE</item>
+        <item>FORD</item>
+        <item>GEO</item>
+        <item>GMC</item>
+        <item>HONDA</item>
+        <item>HYUNDAI</item>
+        <item>INFINITI</item>
+        <item>INFINITY</item>
+        <item>ISUZU</item>
+        <item>JAGUAR</item>
+        <item>JEEP</item>
+        <item>KIA</item>
+        <item>LAND ROVER</item>
+        <item>LEXUS</item>
+        <item>LINCOLN</item>
+        <item>MAZDA</item>
+        <item>MERCEDES-BENZ</item>
+        <item>MERCURY</item>
+        <item>MITSUBISHI</item>
+        <item>NISSAN</item>
+        <item>OLDMOBILE</item>
+        <item>OLDSMOBILE</item>
+        <item>PLYMOUTH</item>
+        <item>PORSCHE</item>
+        <item>PONTIAC</item>
+        <item>SAAB</item>
+        <item>SATURN</item>
+        <item>SCION</item>
+        <item>SUBARU</item>
+        <item>SUZUKI</item>
+        <item>TOYOTA</item>
+        <item>VOLKSWAGEN</item>
+        <item>VOLVO</item>
+    </string-array>
+
+    <string-array name="FuelTypeShortKey">
+        <item>B</item>
+        <item>D</item>
+        <item>F</item>
+        <item>G</item>
+        <item>I</item>
+        <item>L</item>
+        <item>N</item>
+        <item>P</item>
+        <item>Y</item>
+    </string-array>
+
+    <string-array name="FuelType">
+        <item>BioDiesel</item>
+        <item>Diesel</item>
+        <item>Flex Fuel</item>
+        <item>Gasoline</item>
+        <item>Plug-in Hybrid</item>
+        <item>Electric</item>
+        <item>Natural Gas</item>
+        <item>Petroleum</item>
+        <item>Gas/Electric Hybrid</item>
+    </string-array>
+
+    <string-array name="DriveType">
+        <item>FWD</item>
+        <item>RWD</item>
+        <item>AWD</item>
+    </string-array>
+
+    <string-array name="VehicleType">
+        <item>Car</item>
+        <item>SUB</item>
+        <item>Truck</item>
+        <item>Van</item>
+    </string-array>
+
+    <string-array name="StageType">
+        <item>MC</item>
+        <item>118</item>
+        <item>QC</item>
+        <item>CB</item>
+        <item>40 Miles</item>
+        <item>Detailing</item>
+        <item>Ready</item>
+        <item>Hold PPA</item>
+        <item>Hold Repo</item>
+        <item>P/H-118</item>
+        <item>P/H-CB</item>
+        <item>P/H-Customer</item>
+        <item>W/P-118</item>
+        <item>W/P-CB</item>
+        <item>W/P-Customer</item>
+    </string-array>
+
+    <string-array name="ServiceStage">
+        <item>Null</item>
+        <item>Service IN</item>
+        <item>In Shop</item>
+        <item>FDC</item>
+        <item>20 Miles</item>
+    </string-array>
+
+    <string-array name="StageTypeForMissCar">
+        <item>All</item>
+        <item>Auction</item>
+        <item>Junk</item>
+        <item>MC</item>
+        <item>WFP</item>
+        <item>PA</item>
+        <item>118</item>
+        <item>QC</item>
+        <item>40 Miles</item>
+        <item>Detailing</item>
+        <item>CB</item>
+        <item>Ready</item>
+    </string-array>
+
+    <string-array name="condition">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string name="title_activity_locatio">Locations</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_stage">StageGraphDetails</string>
+    <string name="title_activity_stagecar">StageCarActivity</string>
+
+    <!-- face recognization string -->
+    <string name="title_activity_add_photo">AddPhoto</string>
+    <string name="title_activity_image_confirmation">ImageConfirmation</string>
+    <string name="title_activity_choose_user">ChooseUser</string>
+    <string name="title_activity_live_recognition">LiveRecognition</string>
+    <string name="description">Description</string>
+    <string name="title_activity_add_car_history">AddCarHistory</string>
+    <string name="title_activity_car_auction">CarAuction</string>
+    <string name="title_activity_report">Report</string>
+    <string name="title_activity_missing_car_detail">Missing Car</string>
+    <string name="title_activity_history_of_edit_car">History</string>
+    <string name="title_activity_dataone">DataOneData</string>
+    <string name="title_activity_MissingCarFull_DetailActivity"></string>
+    <string name="title_activity_Lesase">Lease History</string>
+    <string name="title_activity_dailog">Dailog</string>
+    <string name="title_activity_miss_car_search">Missing Car</string>
+    <string name="title_activity_show_photo">Photo</string>
+
+    <string-array name="Auction_Name">
+        <item>Adesa</item>
+        <item>BorderTown</item>
+        <item>HatField</item>
+        <item>Manheim</item>
+        <item>GSAA</item>
+        <item>CARRIAGE</item>
+        <item>Capital</item>
+        <item>ADESA LONG ISLAND</item>
+        <item>FRED BEAN MITSUBISHI</item>
+        <item>CARRIAGE TRADE</item>
+        <item>GARDEN SPOT AUTO AUCTION</item>
+        <item>JOHN KENNEDY FOR CONCHOHOCKEN</item>
+        <item>TEAM TOYOTA PRINCETON</item>
+        <item>FAULKNER CIOCCA QUAKERTOWN</item>
+        <item>FAULKNER CIOCCA SUBARU</item>
+        <item>MANHEIM NY METRO SKYLINE</item>
+        <item>FAULKNER CIOCCA HONDA</item>
+        <item>FAULKNER CIOCCA AUDI</item>
+        <item>MANHEIM NEW JERSEY</item>
+        <item>ADESA NEW JERSEY</item>
+        <item>C&amp;C FORD HORSHAN</item>
+        <item>TEAM TOYOTA</item>
+        <item>TOYOTA OF RUNNEMEDE</item>
+        <item>MAIN LINE HONDA</item>
+        <item>REEDMAN TOLL</item>
+        <item>MANHEIM PENNSYLVANIA</item>
+        <item>FAULKNER CIOCCA SOUNDERTON</item>
+        <item>PELLEGRINO CHRYSLER JEEP</item>
+        <item>BURLINGTON CHEVROLET</item>
+        <item>TOYOTA OF RUNEMEDE</item>
+        <item>PACIFICO HYUNDAI</item>
+    </string-array>
+
+    <string name="auction_date">Auction Date</string>
+    <string name="car_ready_for_auction">Car ready for auction?</string>
+    <string name="title_activity_fragstatus">FRAGStatus</string>
+    <string name="title_activity_fragproblem">FRAGProblem</string>
+    <string name="title_activity_frag_note">FragNote</string>
+    <string name="title_activity_fragmake">FRAGMake</string>
+    <string name="title_activity_fragall_detail">FRAGAllDetail</string>
+    <string name="view_all_detail">View All Detail</string>
+    <string name="title_activity_fragall_info">FRAGAllInfo</string>
+    <string name="title_activity_goldstar_map">GoldstarMap</string>
+    <string name="title_activity_stage_graph_car_detail">StageGraphCarDetail</string>
+    <string name="title_activity_auction_lot_available_details">AuctionLotAvailableDetailsActivity
+    </string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--For auction fragment hint-->
+    <string name="auct_name">Select Auction Name</string>
+    <string name="auct_date">Select Auction Date</string>
+    <string name="auct_carReady">Select Car Ready For Auction or Not?</string>
+    <string name="auct_carAt">Select Car At The Auction or Not?</string>
+
+    <!--For basic fragment hint-->
+    <string name="basic_vin">Enter Vin or Scan Vin</string>
+    <string name="basic_rfid">Enter Rfid or Scan Rfid</string>
+    <string name="basic_make">Select Make</string>
+    <string name="basic_modelYear">Select Model Year</string>
+    <string name="basic_lotCode">Select Lot Code</string>
+
+    <!--For car detail fragment hint-->
+    <string name="cd_color">Select Color</string>
+    <string name="cd_carModelNumber">Enter Car Model No.</string>
+    <string name="cd_price">Select Price Range</string>
+    <string name="cd_miles">Enter Miles</string>
+    <string name="cd_fuelType">Select Fuel Type</string>
+    <string name="cd_driveType">Select Drive Type</string>
+    <string name="cd_cylinder">Enter No. of Cylinder Engine</string>
+    <string name="cd_vehicleType">Enter Vehicle Type</string>
+    <string name="cd_hasTitle">Select Has Title or not ?</string>
+    <string name="cd_locationTitle">Select Location Title?</string>
+    <string name="cd_company">Enter Company</string>
+    <string name="cd_stockNumber">Enter Customer Stock No.</string>
+    <string name="cd_purchasedFrom">Enter Purchased From</string>
+    <string name="cd_gasTank">Select Gas Tank</string>
+    <string name="cd_note">Enter Note</string>
+    <string name="cd_noteDate">Select Note Date</string>
+    <string name="cd_gpsInstalled">Select Gps Installed or not?</string>
+
+    <!--For service fragment hint-->
+    <string name="ser_stage">Select Service Stage</string>
+    <string name="ser_problem">Select Problem</string>
+    <string name="ser_doneDate">Select Done date</string>
+    <string name="ser_doneDateLotcode">Select Done date Lotcode</string>
+    <string name="ser_Meachanic">Enter Mechanic name</string>
+
+    <!--For statuses fragment hint-->
+    <string name="stat_status">Select Vehicle Status</string>
+    <string name="stat_hasRfid">Select Has Rfid or not ?</string>
+    <string name="stat_vacancy">Select Vacancy</string>
+    <string name="stat_stage">Select Vehicle Stage</string>
+
+</resources>

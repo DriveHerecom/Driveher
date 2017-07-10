@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal">
+
+    <com.yukti.driveherenew.search.CircleView
+        android:id="@+id/colorViewOdd"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="16dp"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone">
+    </com.yukti.driveherenew.search.CircleView>
+
+    <TextView
+        android:id="@+id/colorNameOdd"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:paddingLeft="24dp"
+        android:text="Green"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.yukti.driveherenew.search.CircleView
+            android:id="@+id/colorViewEven"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="16dp"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical">
+        </com.yukti.driveherenew.search.CircleView>
+
+        <TextView
+            android:id="@+id/colorNameEven"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:paddingLeft="24dp"
+            android:text="Green"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone"/>
+            />
+    </LinearLayout>
+</LinearLayout><!-- From: file:/E:/Android%20Studio/DriveHere/driveHere/src/main/res/layout/dataone_row_color.xml -->

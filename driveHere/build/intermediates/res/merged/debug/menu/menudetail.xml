@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/inquiries"
+        android:title="Inquiries"></item>
+    <item
+        android:id="@+id/dataone"
+        android:title="DataOne"></item>
+    <item
+        android:id="@+id/carfax"
+        android:title="CarFax"></item>
+
+    <item
+        android:id="@+id/edit_auction"
+        android:orderInCategory="100"
+        android:title=""
+        android:icon="@drawable/ic_wh_edit"
+        app:showAsAction="always"/>
+
+</menu><!-- From: file:/E:/Android%20Studio/DriveHere/driveHere/src/main/res/menu/menudetail.xml -->

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          style="@style/Material_Card_Supporting_Text_24dp"
+          tools:text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+          android:id="@+id/supportingText"/><!-- From: file:/Users/Carlos/Home/Projects/MaterialList/materialList/src/main/res/layout/supporting_text_24dp.xml --><!-- From: file:/E:/Android%20Studio/DriveHere/driveHere/build/intermediates/exploded-aar/com.github.dexafree/materiallist/3.1.3/res/layout/supporting_text_24dp.xml -->

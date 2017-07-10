@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yukti.driveherenew.InputScanActivity" >
+
+    <include
+        android:id="@+id/activity_input_scan_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        layout="@layout/app_bar" />
+
+    <EditText
+        android:id="@+id/edit_input_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_input_scan_app_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:gravity="center"
+        android:maxLength="17"
+        android:singleLine="true"
+        android:hint="Vin or Barcode"
+        android:inputType="text"
+        android:text=""
+        android:textColor="@color/black" >
+    </EditText>
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edit_input_number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_selector_primary"
+        android:text="Search"
+        android:textColor="@color/white" />
+
+</RelativeLayout><!-- From: file:/E:/Android%20Studio/DriveHere/driveHere/src/main/res/layout/activity_input_scan.xml -->

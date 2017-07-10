@@ -1,0 +1,121 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.yukti.newchanges.fragment.StatusesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll_statuses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                app:cardCornerRadius="3dp">
+
+                <EditText
+                    android:id="@+id/vehicle_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/stat_status"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/text_color_search"
+                    android:textSize="15sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                app:cardCornerRadius="3dp">
+
+                <EditText
+                    android:id="@+id/edt_hasRfid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/stat_hasRfid"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/text_color_search"
+                    android:textSize="15sp" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                app:cardCornerRadius="3dp">
+
+                <EditText
+                    android:id="@+id/edt_vacancySearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/stat_vacancy"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/text_color_search"
+                    android:textSize="15sp"
+
+                    />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                app:cardCornerRadius="3dp">
+
+                <EditText
+                    android:id="@+id/vehicle_stage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/white"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/stat_stage"
+                    android:paddingBottom="@dimen/search_row_padding_bottom"
+                    android:paddingTop="@dimen/search_row_padding_top"
+                    android:textColor="@color/text_color_search"
+                    android:textSize="15sp" />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
+<!-- From: file:/E:/Android%20Studio/DriveHere/driveHere/src/main/res/layout/fragment_statuses.xml -->

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/allDetails"
+        android:orderInCategory="100"
+        android:title=""
+        android:icon="@mipmap/ic_place_24"
+        app:showAsAction="always"/>
+
+</menu>

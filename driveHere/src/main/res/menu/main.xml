@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yukti.vinscanner.MainActivity" >
+
+    <!--<item-->
+        <!--android:carId="@+carId/action_profile"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:showAsAction="never"-->
+        <!--android:title="Profile"/>-->
+     <item
+        android:id="@+id/action_update_face"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Update Face"/>
+
+    
+   <!-- <item
+        android:carId="@+carId/action_nightshift_mode"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/alarm"
+        android:title="Start NightShift Mode"/> -->
+    
+    
+</menu>

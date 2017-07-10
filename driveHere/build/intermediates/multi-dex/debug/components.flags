@@ -1,0 +1,322 @@
+-injars 'E:\DriveHere\driveHere\build\intermediates\multi-dex\debug\allclasses.jar'
+-outjars 'E:\DriveHere\driveHere\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\ravi\AppData\Local\Android\sdk\build-tools\23.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontpreverify
+-dontwarn
+-printconfiguration 'E:\DriveHere\driveHere\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class com.yukti.utils.AppSingleTon {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.yukti.driveherenew.LoginActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.SignUpActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.TermsAndConditions {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.MainActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.VinScannerActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.AddCarScannerActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.BarCodeScannerActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.InputScanActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.AddNewCarActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.AddNewCarDetailsActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.EditCarActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.ForgotPasswordActivityTwo {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.ProfileActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.SearchActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.SearchResultActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.CarDetailsActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.MapActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.GalleryActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.StageActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.Stagewithcaractivity {
+    <init>();
+}
+
+-keep class com.yukti.facerecognization.FacialRecognitionActivity {
+    <init>();
+}
+
+-keep class com.yukti.facerecognization.AddPhoto {
+    <init>();
+}
+
+-keep class com.yukti.facerecognization.ImageConfirmation {
+    <init>();
+}
+
+-keep class com.yukti.facerecognization.ChooseUser {
+    <init>();
+}
+
+-keep class com.yukti.facerecognization.LiveRecognition {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.AddCarHistory {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.CarAuctionActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.ReportActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.MissingCarDetailActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.HistoryOfEditCarActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.DataoneActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.MissingCarFullDetailActivity {
+    <init>();
+}
+
+-keep class com.yukti.facerecognization.localdatabase.FacialRecognitionActivityLocal {
+    <init>();
+}
+
+-keep class com.yukti.facerecognization.localdatabase.AddPhotoLocal {
+    <init>();
+}
+
+-keep class com.yukti.facerecognization.localdatabase.ImageConfirmationLocal {
+    <init>();
+}
+
+-keep class com.yukti.facerecognization.localdatabase.LiveRecognitionLocal {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.DailogActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.LeaseActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.Officeractivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.AlarmReciever {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.MissCarSearchActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.StoreDataOneDataService {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.ShowPhotoActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.ShowPhotoActivityEdit {
+    <init>();
+}
+
+-keep class com.google.android.gcm.GCMBroadcastReceiver {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.GCMIntentService {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.fragment.FRAGAllInfo {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.GoldstarMap {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.fragment.FRAGVacancy {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.TitleHistoryActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.TitleActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.DonedateLotcodeActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.AuctionActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.AuctionLotCodeDetailsActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.AuctionLotAvailableDetailsActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.AuctionCarDetailsActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.InquiryActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.ZoomImageActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.WebPicsHistoryActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.WebPicsActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.PastContractActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.SearchResultPastContract {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.AllDetailActivity {
+    <init>();
+}
+
+-keep class com.yukti.driveherenew.search.LastScanHistory {
+    <init>();
+}
+
+-keep class com.yukti.newchanges.Activity.SearchActivity {
+    <init>();
+}
+
+-keep class com.google.zxing.client.android.CaptureActivity {
+    <init>();
+}
+
+-keep class com.google.zxing.client.android.PreferencesActivity {
+    <init>();
+}
+
+-keep class com.google.zxing.client.android.encode.EncodeActivity {
+    <init>();
+}
+
+-keep class com.google.zxing.client.android.book.SearchBookContentsActivity {
+    <init>();
+}
+
+-keep class com.google.zxing.client.android.share.ShareActivity {
+    <init>();
+}
+
+-keep class com.google.zxing.client.android.history.HistoryActivity {
+    <init>();
+}
+
+-keep class com.google.zxing.client.android.share.BookmarkPickerActivity {
+    <init>();
+}
+
+-keep class com.google.zxing.client.android.share.AppPickerActivity {
+    <init>();
+}
+
+-keep class com.google.zxing.client.android.HelpActivity {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7323dc</color>
+    <color name="colorPrimaryDark">#641fbe</color>
+    <color name="colorAccent">#105089</color>
+    <color name="colorHint">#3192E7</color>
+
+    <color name="primaryColor">#7323dc</color>
+    <color name="primaryColorDark">#641fbe</color>
+    <color name="accentColor">#7f30e6</color>
+    <!--<color name="accentColor">#E65100</color>-->
+    <color name="btn_bg_n">#1D0F63</color>
+    <color name="colorWhite">#fff</color>
+
+    <color name="actionbar_opacity">#DD000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_border">#ffafed44</color>
+    <color name="button_click_background">#EBEBEB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_off">#FBF9F6</color>
+    <color name="black">#000000</color>
+    <color name="green">#046004</color>
+    <color name="gray">#595959</color>
+    <color name="gray1">#686767</color>
+    <color name="lightgray">#b9b6b6</color>
+    <color name="darkgray">#FF444444</color>
+    <color name="red">#ca4638</color>
+    <color name="redDark">#78443E</color>
+    <color name="orange">#E65100</color>
+    <color name="brightgray">#666666</color>
+    <color name="bluecolor"> #3A01DF</color>
+    <color name="stagetext">#1565C0</color>
+
+    <color name="graytext">#9D9D9D</color>
+    <color name="buttonColor">#607D8B</color>
+
+    <color name="customer">#33b3a6</color>
+    <color name="document">#a2a636</color>
+    <color name="return_car">#ff8252</color>
+    <color name="loaner">#003e89</color>
+    <color name="white_transparent">#4Bffffff</color>
+    <color name="grayTransparent">#59000000</color>
+    <color name="gray_transparent">#bc605e5e</color>
+    <!-- <color name="black_transparent">#CC000000</color> -->
+    <color name="black_transparent">#f56a23</color>
+    <color name="hint_color">#a8a8a8</color>
+    <color name="background">#ecf0f5</color>
+    <color name="text_color">#848181</color>
+
+    <color name="color_drawer_focus">#53ACE9</color>
+    <color name="color_drawer_selected">#53ACE9</color>
+    <color name="text_color_search">#641fbe</color>
+    <color name="select_txt_clr">#3c8dbc</color>
+    <color name="drawer_background">#222d32</color>
+    <color name="drawer_background1">#3a464b</color>
+    <color name="drawer_selected">#0a0a0a</color>
+
+</resources>

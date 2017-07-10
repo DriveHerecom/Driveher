@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\libs\httpclientandroidlib-1.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="876bd5cb8cee9c70980e77b489f06ca20452a054">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\httpclientandroidlib-1.2.1-254decec58390fe4d08d71879ce9c7f0e28b6320.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\android-async-http-1.4.9-b1537448b50e8c1984d893509f8106cc55899471.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\libs\android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-c21f7a32a26ea89de39d49d5658b9b51897793de.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-b5e06b6828a8c88fbecb69ff6882b36290dd5295.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0c3e81d3eb86b86d194b5cdb6a4de78203f6f7fd">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-69e898ff7730c5eccda40023c1aa68300598f7c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\library-2.4.0-16c20551d1515298e4f820dbb2437cde217a49b7.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.7\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="41a4edf3c43fdbce6eba27da50b17ff9933987f1">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-4dfe1ea6b7c7d1b498294f48cab488e184a80dba.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\httpclient-4.3.6-e4c2a7ccc6f36fc0c0b6db3cd84168431f19da97.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="77f9593d979f4347344be233bd0d888315f79517">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-12265862333e3378de319f12fcb4933e5861649b.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.ogaclejapan.smarttablayout\library\1.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="773103b47908c3026873309dd5d968b7fc6556eb">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-7bec0ca5597d2cac1d936bb2c8f8d1b03f00d22c.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\picasso-2.5.2-f6db4f697fe5e87d59cfac24a349c3b36bfeebcb.jar" />
+    </item>
+    <item
+        jar="D:\Software\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-254d802ffeb034964eab673cd3a0ad4cf49938a0.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\httpcore-4.3.2-c9a3342af48f4fe055844603956d89971f44287b.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\libs\core-2.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cba0b93b0072105d808ef7a00a107a4eb97874e7">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\core-2.2-7017652c5b09a996031aaf466205f28c92b59221.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\zxingLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dc4b00db07c3244d39bbf50790cd9753a1649a77">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-c0a7c64eb6b772053901bc04dbb7fc4925beb308.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\DriveHere.driveHere.libraries\volley\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4c2355a00f6be2999154585d0603a11dbf621557">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-6ac7cade10cf0d0262ca2079959a287e9075cdc9.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.github.dexafree\materiallist\3.1.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="80bfd1b5e37aec786535849d1b4eb5f93e4cc9c2">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-0b067d77a9b9a24ad1a9ee5c9e78e1f7d5c1cc36.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-64785265989765b68046cf78e0b583e59b185a36.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.crittercism\crittercism-android-agent\5.5.5-rc-1\5847429a9aaf873c50d9c6403d9190fc289efab3\crittercism-android-agent-5.5.5-rc-1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5847429a9aaf873c50d9c6403d9190fc289efab3">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\crittercism-android-agent-5.5.5-rc-1-524aea44f3e1861a8a932f89d7c702697a5ed4b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6d9ed9a288364688e7fcf6704776284dac1eb42e">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-13bb3eb60483f299c0a3514cbf50177a3a03134a.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-79cde841ffd0cdd37e05d75031815059e011b5c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-9147cc958afe81a72c0c9c7ef6b9e94f18992975.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\me.drakeet.materialdialog\library\1.2.8\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0573d010bcb1ee874e1c258a31e98ab920e6805f">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-791c31b934a4e196e15fe99b2ab42a565ead3867.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\libs\pinchzoom.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4def992b1f41525748db059dfdd21322cc3157e">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\pinchzoom-690f17b67cdfcda089d3d66b34ff7893b58b8a84.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\libs\sd-sdk-facial-processing.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="18b675f7e2b5895521c475cded91414e2bfbe047">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\sd-sdk-facial-processing-ae7e62ab8a372d7873bfdac236f1312443e138cd.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-042ad029839a9ff9375433f11afdd75d54fcb7d7.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-e866f12edd91740af16bdda7446557bcc2208f75.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\libs\simple-xml-2.7.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="083623424bcfa03bd598e709765bad0816c2375d">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\simple-xml-2.7.1-9ebf50528e78b30dfa5eb51d873a98e1fe2a04c5.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\gson-2.3.1-b871dc0708004d951dd5c7391e9ffb1bc707ed50.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-1246cb365cca943ad352f6cabaa3a79d91aac89a.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\libs\gcm.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\gcm-0d6aeb29745b0bd5a49be8e90f71d9193e3e0f99.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.joooonho\selectableroundedimageview\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1b915694304bc4a4003b7e7b65577b4f0b514b06">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-cdbfb3cc3a088696718d37830fd0ec1ac7f64f26.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-dfcff53255c91d4862469cd5d053bcd7e3977772.jar" />
+    </item>
+    <item
+        jar="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="C:\Users\admin\AndroidStudioProjects\DriveHere\driveHere\build\intermediates\pre-dexed\debug\classes-ae69a6c341404d43a03b383cd8d053cfa8e27515.jar" />
+    </item>
+
+</items>

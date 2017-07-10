@@ -1,0 +1,50 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/selectedImage"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher" />
+
+        <!-- <Button -->
+        <!-- android:carId="@+carId/RotateButton" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignParentLeft="true" -->
+        <!-- android:layout_below="@+carId/selectedImage" -->
+        <!-- android:layout_marginTop="20dp" -->
+        <!-- android:text="Rotate" /> -->
+
+        <Button
+            android:id="@+id/DoneButton"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/bluecolor"
+            android:text="Done"
+            android:textColor="#FFFFFFFF" />
+
+        <Button
+            android:id="@+id/RotateButton"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/selectedImage"
+            android:background="@color/bluecolor"
+            android:text="Rotate"
+            android:textColor="#FFFFFFFF" />
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/E:/Android%20Studio/DriveHere/driveHere/src/main/res/layout/activity_custom_dialog.xml -->

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:text="Name:"
+            android:textColor="#a4a4a4"
+            android:textSize="14sp" />
+-->
+        <TextView
+            android:id="@+id/tv_nameIE"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_height="40dp"
+            android:textColor="#a4a4a4"
+            android:textSize="14sp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:id="@+id/ll_values"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <!--
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CCCCCC"/>-->
+
+    <!--<TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:text="Values:"
+        android:textColor="@color/primaryColor"
+        android:textSize="16sp" />
+-->
+
+
+
+
+
+</LinearLayout><!-- From: file:/E:/Android%20Studio/DriveHere/driveHere/src/main/res/layout/equipment_layout.xml -->

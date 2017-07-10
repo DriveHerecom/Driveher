@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/activity_inquiry_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primaryColor"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/dataone_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_inquiry_app_bar"
+        android:background="#EEEEEE"
+        android:visibility="visible"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EEEEEE"
+            android:orientation="vertical">
+
+            <AutoCompleteTextView
+                android:id="@+id/autocompleteEditTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/roundedittext"
+                android:hint="Email Address"
+                android:padding="15dp"
+                android:singleLine="true"
+                android:textColor="#6E8895" />
+
+            <!--<AutoCompleteTextView-->
+            <!--android:carId="@+carId/autocompleteEditTextView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+carId/textView1"-->
+
+            <!--/>-->
+
+            <EditText
+                android:id="@+id/edt_model"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/roundedittext"
+                android:focusable="false"
+                android:hint="Model"
+                android:padding="15dp"
+                android:singleLine="true"
+                android:textColor="#6E8895"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_vin"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/roundedittext"
+                android:focusable="false"
+                android:hint="Vin"
+                android:padding="15dp"
+                android:singleLine="true"
+                android:textColor="#6E8895"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_date"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/roundedittext"
+                android:focusable="false"
+                android:hint="Date"
+                android:padding="15dp"
+                android:singleLine="true"
+                android:textColor="#6E8895"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_query"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape"
+                android:gravity="start"
+                android:hint="Query"
+                android:maxLines="6"
+                android:padding="15dp"
+                android:textColor="#6E8895" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/primaryColorDark"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout><!-- From: file:/E:/Android%20Studio/DriveHere/driveHere/src/main/res/layout/activity_inquiry.xml -->

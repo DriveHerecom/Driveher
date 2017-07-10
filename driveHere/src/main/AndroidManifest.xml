@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yukti.driveherenew"
+    android:versionCode="13"
+    android:versionName="1.3">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- face reccognization -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> -->
+    <!-- Required if we need to invalidate access tokens -->
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!-- GCM requires a Google account. -->
+
+
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.yukti.drivehere.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <permission
+        android:name="com.yukti.driveherenew.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="com.yukti.driveherenew.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <!-- Required if we need to invalidate access tokens -->
+    <application
+        android:name="com.yukti.utils.AppSingleTon"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_api_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SignUpActivity"
+            android:label="@string/title_activity_registration"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yukti.driveherenew.LoginActivity" />
+        </activity>
+
+        <activity
+            android:name=".TermsAndConditions"
+            android:label="@string/title_activity_terms_and_conditions"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yukti.driveherenew.SignUpActivity" />
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".VinScannerActivity"
+            android:label="@string/title_activity_scanner"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyScannerViewTheme" />
+
+        <activity
+            android:name=".AddCarScannerActivity"
+            android:label="@string/title_activity_scanner"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyScannerViewTheme" />
+
+        <activity
+            android:name=".BarCodeScannerActivity"
+            android:label="@string/title_activity_scanner"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyScannerViewTheme" />
+
+        <activity
+            android:name=".InputScanActivity"
+            android:label="@string/title_activity_input_scan"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yukti.driveherenew.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".AddNewCarActivity"
+            android:configChanges="keyboard|orientation"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".AddNewCarDetailsActivity"
+            android:configChanges="keyboard|orientation"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".EditCarActivity"
+            android:label="@string/update"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity android:name=".ForgotPasswordActivityTwo">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yukti.driveherenew.LoginActivity" />
+        </activity>
+
+        <activity android:name=".ProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yukti.driveherenew.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".search.SearchActivity"
+            android:label="@string/title_activity_search"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.yukti.driveherenew.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".search.SearchResultActivity"
+            android:label="@string/title_activity_search_result">
+        </activity>
+
+        <activity
+            android:name=".search.CarDetailsActivity"
+            android:label=""
+            android:theme="@style/MyCarDetailTheme">
+        </activity>
+
+        <activity
+            android:name=".search.MapActivity"
+            android:label="@string/title_activity_locatio">
+        </activity>
+
+        <activity
+            android:name=".search.GalleryActivity"
+            android:label="@string/title_activity_gallery"
+            android:theme="@style/MyGalleryTheme">
+        </activity>
+
+        <activity
+            android:name=".StageActivity"
+            android:label="" />
+
+        <activity
+            android:name=".Stagewithcaractivity"
+            android:label="" />
+
+        <activity android:name="com.yukti.facerecognization.FacialRecognitionActivity" />
+
+        <activity
+            android:name="com.yukti.facerecognization.AddPhoto"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.yukti.facerecognization.ImageConfirmation"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.yukti.facerecognization.ChooseUser" />
+
+        <activity
+            android:name="com.yukti.facerecognization.LiveRecognition"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".search.AddCarHistory"
+            android:label="@string/title_activity_add_car_history" />
+
+        <activity
+            android:name=".CarAuctionActivity"
+            android:configChanges="keyboard|orientation"
+            android:label="@string/title_activity_car_auction"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".ReportActivity"
+            android:label="@string/title_activity_report" />
+
+        <activity
+            android:name=".MissingCarDetailActivity"
+            android:label="@string/title_activity_missing_car_detail" />
+
+        <activity
+            android:name=".search.HistoryOfEditCarActivity"
+            android:label="@string/title_activity_history_of_edit_car" />
+
+        <activity
+            android:name=".DataoneActivity"
+            android:label="@string/title_activity_dataone" />
+
+        <activity
+            android:name=".MissingCarFullDetailActivity"
+            android:label="@string/title_activity_MissingCarFull_DetailActivity" />
+
+        <activity
+            android:name="com.yukti.facerecognization.localdatabase.FacialRecognitionActivityLocal"
+            android:label="@string/title_activity_MissingCarFull_DetailActivity" />
+
+        <activity
+            android:name="com.yukti.facerecognization.localdatabase.AddPhotoLocal"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.yukti.facerecognization.localdatabase.ImageConfirmationLocal"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_MissingCarFull_DetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.yukti.facerecognization.localdatabase.LiveRecognitionLocal"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_MissingCarFull_DetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".DailogActivity"
+            android:label="@string/title_activity_dailog"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" />
+
+        <activity
+            android:name=".LeaseActivity"
+            android:label="@string/title_activity_Lesase" />
+
+        <activity
+            android:name=".Officeractivity"
+            android:label="Send Note"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".AlarmReciever" />
+
+        <activity
+            android:name=".MissCarSearchActivity"
+            android:label="@string/title_activity_miss_car_search" />
+
+        <service android:name=".StoreDataOneDataService" />
+
+        <activity
+            android:name=".ShowPhotoActivity"
+            android:label="@string/title_activity_show_photo" />
+
+        <activity
+            android:name=".ShowPhotoActivityEdit"
+            android:label="@string/title_activity_show_photo" />
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration carId. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.yukti.drivehere" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".GCMIntentService" />
+
+        <activity
+            android:name=".fragment.FRAGAllInfo"
+            android:label="@string/title_activity_fragall_info" />
+
+        <activity
+            android:name=".search.GoldstarMap"
+            android:label="@string/title_activity_goldstar_map" />
+
+        <activity android:name=".fragment.FRAGVacancy" />
+
+        <activity
+            android:name=".search.TitleHistoryActivity"
+            android:label="Title History" />
+
+        <activity
+            android:name=".search.TitleActivity"
+            android:label="Add Title" />
+
+        <activity
+            android:name=".search.DonedateLotcodeActivity"
+            android:label="Donedate Lotcode" />
+
+        <activity
+            android:name=".AuctionActivity"
+            android:label="Auction Names" />
+
+        <activity
+            android:name=".AuctionLotCodeDetailsActivity"
+            android:label="Auction Lotcodes" />
+
+        <activity
+            android:name=".AuctionLotAvailableDetailsActivity"
+            android:label="Auction Lot CarList" />
+
+        <activity android:name=".AuctionCarDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+
+        <activity android:name=".InquiryActivity" />
+
+        <activity
+            android:name=".search.ZoomImageActivity"
+            android:label="Image"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".search.WebPicsHistoryActivity" />
+
+        <activity android:name=".search.WebPicsActivity" />
+
+        <activity
+            android:name=".PastContractActivity"
+            android:label="Search Contract" />
+
+        <activity
+            android:name=".search.SearchResultPastContract"
+            android:label="Search Result" />
+
+        <activity
+            android:name=".AllDetailActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".search.LastScanHistory"
+            android:label="All Details"
+            android:parentActivityName=".search.CarDetailsActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity android:name="com.yukti.newchanges.Activity.SearchActivity"
+            android:label="Filter Car List"
+            android:windowSoftInputMode="stateHidden"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+
+    </application>
+
+</manifest>

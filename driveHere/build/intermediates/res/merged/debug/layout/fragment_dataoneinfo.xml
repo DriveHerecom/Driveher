@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+         >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:padding="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:paddingBottom="25dp"
+                    android:text="Data One Info"
+                    android:textColor="#869CA7"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edt_vehiclecolor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:hint="Select color"
+                    android:singleLine="true" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edt_vehiclemake"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:hint="Select make"
+                    android:singleLine="true" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edt_vehiclemodel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter model"
+                    android:singleLine="true" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edt_vehiclemodelnumber"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter model number"
+                    android:singleLine="true" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edt_vehiclemodelyear"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Model Year"
+                    android:inputType="number"
+                    android:singleLine="true" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edt_vehiclemaxhp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Max Hp"
+                    android:inputType="number"
+                    android:singleLine="true" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edt_vehiclemaxtorque"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Max torque"
+                    android:inputType="number"
+                    android:singleLine="true" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edt_vehiclefueltype"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:hint="Select fuel type"
+                    android:singleLine="true" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edt_vehicleoilcapacity"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter oil capacity"
+                    android:inputType="number"
+                    android:singleLine="true" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edt_vehicledrivetype"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:hint="Select drive type"
+                    android:singleLine="true" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edt_vehiclecylinder"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter cylinder"
+                    android:inputType="number"
+                    android:singleLine="true" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/edt_vehicletype"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter vehicletype"
+                    android:singleLine="true" >
+                </EditText>
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_nextdataoneinfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:text="Next >> All Info"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/Android%20Studio/DriveHere/driveHere/src/main/res/layout/fragment_dataoneinfo.xml -->

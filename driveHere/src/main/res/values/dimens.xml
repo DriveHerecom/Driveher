@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="search_row_height">45dp</dimen>
+    <dimen name="search_row_padding_top">12dp</dimen>
+    <dimen name="search_row_padding_bottom">12dp</dimen>
+    <dimen name="search_display_row_height">40dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="car_detail_info">16sp</dimen>
+    <dimen name="car_detail_text">14sp</dimen>
+
+    <dimen name="car_detail_info_height_padding_top">12dp</dimen>
+    <dimen name="bt_height">36dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+</resources>

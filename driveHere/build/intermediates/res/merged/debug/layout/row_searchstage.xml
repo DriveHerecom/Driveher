@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_all"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_all"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="All"
+                        android:textColor="@color/gray"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_mc"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_mc"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="MC"
+                        android:textColor="@color/gray"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_wp118"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_wp118"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="W/P-118"
+                        android:textColor="@color/gray"
+                        android:textSize="10dp" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_wpCB"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_wpCB"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="W/P-CB"
+                        android:textColor="@color/gray"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_wpCustomer"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_wpCustomer"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="W/P-Custmer"
+                        android:textColor="@color/gray"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_ph118"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_ph118"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="P/H-118"
+                        android:textColor="@color/gray"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_phCB"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_phCB"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="P/H-CB"
+                        android:textColor="@color/gray"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_phCustomer"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_phCustomer"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="P/H-Customer"
+                        android:textColor="@color/gray"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_118"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_118"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="118"
+                        android:textColor="@color/gray"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_qc"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_qc"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:text="QC"
+                        android:textColor="@color/gray" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_cb"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_cb"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:text="CB"
+                        android:textColor="@color/gray" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_40Miles"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_40Miles"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:text="40 Miles"
+                        android:textColor="@color/gray" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_detailing"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_detailing"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:text="Detailing"
+                        android:textColor="@color/gray" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_ready"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_ready"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:text="Ready"
+                        android:textColor="@color/gray" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_holdPPA"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_holdPPA"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:text="Hold PPA"
+                        android:textColor="@color/gray" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_holdRepo"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_holdRepo"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:text="Hold Repo"
+                        android:textColor="@color/gray" />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_unknown"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_unknown"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:text="Unknown"
+                        android:textColor="@color/gray" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_junk"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_junk"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:text="Junk"
+                        android:textColor="@color/gray" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/ll_auction"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:id="@+id/tv_auction"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:textSize="10dp"
+                        android:text="Auction"
+                        android:textColor="@color/gray" />
+
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/Android%20Studio/DriveHere/driveHere/src/main/res/layout/row_searchstage.xml -->
